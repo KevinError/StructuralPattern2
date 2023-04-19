@@ -4,13 +4,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CharacterPropertiesFactory {
-    private Map<String, CharacterProperties> propertiesCache = new HashMap<>();
+    private static final Map<CharacterProperties, CharacterProperties> characters = new HashMap<>();
 
-    public CharacterProperties getProperties(String font, String color, int size) {
-        String key = font + "_" + color + "_" + size;
-        if (!propertiesCache.containsKey(key)) {
-            propertiesCache.put(key, new CharacterProperties(font, color, size));
+    public static CharacterProperties getCharacterProperties(String font, String color, int size) {
+        CharacterProperties properties = new CharacterProperties(font, color, size);
+        if (!characters.containsKey(properties)) {
+            characters.put(properties, properties);
         }
-        return propertiesCache.get(key);
+        return characters.get(properties);
     }
 }
