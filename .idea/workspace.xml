@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53319c35-8050-4e3b-a584-82caa6ce18a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Proxy/Song.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProxyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Proxy/SongServiceProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
@@ -17,8 +16,10 @@
       <change beforePath="$PROJECT_DIR$/src/Flyweight/CharacterProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flyweight/CharacterProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Flyweight/CharacterPropertiesFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flyweight/CharacterPropertiesFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Flyweight/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flyweight/Document.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proxy/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proxy/Song.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Proxy/SongService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proxy/SongService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Proxy/SongServiceProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proxy/SongServiceProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProxyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProxyMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

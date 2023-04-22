@@ -13,5 +13,19 @@ public class Song {
         this.songDuration = songDuration;
     }
 
+    public String getSongTitle() {
+        return songTitle;
+    }
 
+    public String getSongArtist() {
+        return songArtist;
+    }
+
+    public String getSongAlbum() {
+        return songAlbum;
+    }
+
+    public int getSongDuration() {
+        return songDuration;
+    }
 }
